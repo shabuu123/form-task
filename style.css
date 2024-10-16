@@ -1,0 +1,108 @@
+#alphabet-logo {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-img {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(19, 117, 228);
+    margin-top: 2%;
+}
+
+#page-info {
+    color: grey;
+    margin-left: 5%;
+}
+.imgInput{
+    width: 45%;
+    height: 150px;
+    /* margin-top: 15%; */
+    border: 2px dashed #719ed5;
+    margin-left: 18%
+}
+
+.upload-img {
+    margin-top: 10%;
+    margin-left: 14%;
+}
+
+hr {
+    width: 90%;
+    border: 1px solid #8BC7FF;
+    margin-top: 10%;
+}
+
+input {
+    /* color: #1375E4; */
+    border: 1px solid #1375E4;
+    border-radius: 8px;
+    padding: 13px;
+    width: 85%;
+    height: 34px;
+
+}
+
+label {
+    color: #1375E4;
+    font-size: 20px;
+    margin-bottom: 8px;
+    font-weight: 600;
+}
+
+::placeholder {
+    color: #1375E4;
+}
+
+main {
+    margin-left: 9%;
+}
+
+.btn {
+    display: block;
+    width: 220px;
+    color: white;
+    background-color: #8BC7FF;
+    padding: 12px 30px;
+    border-radius: 12px;
+    margin-top: 2%
+}
+
+input[type="button"] {
+    box-shadow: 0px 7px #367DCA;
+    font-size: 19px;
+    margin-left: 19%;
+    height: 50px;
+}
+
+#sajheLink h4 img {
+    width: 15px;
+    /* margin-top: 10%; */
+}
+
+#sajheLink h4 {
+    color: #1375E4;
+    font-size: 18px;
+    margin-top: 90px;
+    font-style:normal;
+    margin-left: 23%
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+
+footer {
+    width: 100%;
+    background-color: #1375E4;
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 9%;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
